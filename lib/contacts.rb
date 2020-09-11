@@ -17,7 +17,6 @@ require 'pry'
 def remove_strawberry(contacts)
 contacts.each do |k, v|
   k.each do |k, v|
-    k.each do |k,v|
     if v.contains?("strawberry")
       v.shift
     end
