@@ -19,4 +19,7 @@ contacts.each do |k, v|
   k.each do |k, v|
     if v.contains?("strawberry")
       v.shift
+    end
+  end
+end
 end
